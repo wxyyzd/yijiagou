@@ -8,7 +8,8 @@ class App extends Component {
     return (
       <div className="App">
         <Search/>
-        <Footer/>
+
+       <section id="footer"> <Footer/></section>
       </div>
     );
   }
