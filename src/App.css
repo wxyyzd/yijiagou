@@ -4,3 +4,7 @@
   width: 100%;
   font-size: 14px;
   text-align: center; }
+
+#nav {
+  position: fixed;
+  top: 0px; }

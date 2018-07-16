@@ -7,6 +7,7 @@ import ShoppingCar from "../component/shoppingCar";
 import My from "../component/my";
 import Search from "../component/search"
 import Classify from "../component/classify"
+import Area from "../component/area"
 import App from "../App";
 
 const router = 	(
@@ -16,6 +17,7 @@ const router = 	(
 		  <Switch> 
 		 
 			<Route path="/home" component={Home}/>
+			<Route path="/area" component={Area}/>
 			<Route path="/classify" component={Classify}/>
 			<Route path="/my" component={My}/>
 			<Route path="/search" component={Search}/>

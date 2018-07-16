@@ -1,0 +1,10 @@
+#navbar {
+  width: 100%;
+  display: flex;
+  height: 40px;
+  line-height: 40px; }
+  #navbar .left {
+    width: 20%; }
+  #navbar .right {
+    width: 80%;
+    font-size: 14px; }
