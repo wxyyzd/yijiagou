@@ -1,7 +1,7 @@
 import React,{Component} from "react";
 import "./index.css";
 import {NavLink} from 'react-router-dom';
-import { SearchBar} from 'antd-mobile';
+import Search from "../search";
 import 'antd-mobile/dist/antd-mobile.css';
 class Navbar extends Component{
 
@@ -12,20 +12,9 @@ class Navbar extends Component{
 					</div>
 					<div className="right">
 				<NavLink to="/search" activeClassName="active">
-				     <SearchBar
-     
-				        placeholder="Search"
-				        defaultValue="搜索商品"
-				        cancelText="搜索"
-				        onSubmit={value => console.log(value, 'onSubmit')}
-				        onClear={value => console.log(value, 'onClear')}
-				        onFocus={() => console.log('onFocus')}
-				        onBlur={() => console.log('onBlur')}
-				        onCancel={() => console.log('onCancel')}
-				        showCancelButton
-				        onChange={this.onChange}
-				      />
-				     
+				<div className="inner">
+				   <Search/>
+				  </div> 
 				</NavLink>   
 
 			</div>	

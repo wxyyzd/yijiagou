@@ -1,0 +1,25 @@
+#my li {
+  list-style: none;
+  text-align: center;
+  height: 100px; }
+
+#my ul {
+  margin: 0px;
+  padding: 0px; }
+
+#my .u1, #my .u2 {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between; }
+  #my .u1 li, #my .u2 li {
+    flew: 1;
+    list-style: none;
+    text-align: center;
+    margin: 0 5px; }
+
+#my .u3 {
+  display: flex;
+  flex-wrap: wrap; }
+  #my .u3 li {
+    width: 25%; }

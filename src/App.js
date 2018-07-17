@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App">
        <section id="nav"><Navbar/></section>
        <section id="footer"> <Footer/></section>
-       {this .props.children}
+       {this.props.children}
       </div>
     );
   }
