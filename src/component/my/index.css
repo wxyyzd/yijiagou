@@ -3,12 +3,14 @@
   background: #f00;
   color: #fff; }
   #my .top .shezhi {
-    overflow: hidden; }
+    overflow: hidden;
+    color: #fff; }
     #my .top .shezhi span {
       float: right; }
       #my .top .shezhi span .icon-xiaoxi {
         font-size: 16px;
-        display: inline-block; }
+        display: inline-block;
+        color: #fff; }
   #my .top div.bm {
     height: 100px;
     font-size: 18px;
@@ -60,6 +62,16 @@
     border: 1px solid #ddd;
     box-sizing: border-box;
     border-right: 0px; }
+  #my .u3 .red {
+    color: red; }
+  #my .u3 .green {
+    color: green; }
+  #my .u3 .origin {
+    color: #f60; }
+  #my .u3 .zise {
+    color: #f0f; }
+  #my .u3 .blue {
+    color: #0f0; }
 
 #my b.iconfont {
   display: block;
@@ -69,12 +81,3 @@
 
 #my i {
   font-size: 18px; }
-
-#my .red {
-  color: red; }
-
-#my .green {
-  color: green; }
-
-#my .origin {
-  color: #f60; }

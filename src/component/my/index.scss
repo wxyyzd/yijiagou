@@ -1,5 +1,5 @@
 #my{.top{background:#f00;color:#fff;
-	.shezhi{overflow:hidden;color:#fff
+	.shezhi{overflow:hidden;color:#fff;
 		span{float:right;
 			.icon-xiaoxi{font-size:16px;display:inline-block;color:#fff;}
 		}
@@ -23,10 +23,13 @@
 	}
 	.u3{display:flex;flex-wrap: wrap;
 		li{width:25%;border:1px solid #ddd;box-sizing:border-box;border-right:0px}
+		.red{color:red}
+	.green{color:green}
+	.origin{color:#f60}
+	.zise{color:#f0f}
+	.blue{color:#0f0}
 	}
 	b.iconfont{display:block;font-size:30px;margin:10px 0px;color:#666}
 	i{font-size:18px}
-	.red{color:red}
-	.green{color:green}
-	.origin{color:#f60}
+	
 }

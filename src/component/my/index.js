@@ -26,7 +26,7 @@ class My extends Component{
 		</ul>
 		<p>我的钱包</p>
 		
-		<ul className="u2">
+		<ul className="u2" id="u2">
 		<li><b className="iconfont icon-gouwuqia"></b>电子购物卡</li>
 		<li><b className="iconfont icon-fanli"></b>返利卷</li>
 		<li><b className="iconfont icon-jifen"></b>积分</li>
@@ -34,12 +34,12 @@ class My extends Component{
 		</ul>
 		<ul className="u3">
 		<li><b className="iconfont icon-membership-card_icon"></b>会员卡</li>
-		<li><b className="iconfont icon-chakantieziguanzhu red"></b>商品关注</li>
+		<li><b className="iconfont icon-chakantieziguanzhu  red" ></b>商品关注</li>
 		<li><b className="iconfont icon-guanzhudianpu red"></b>店铺关注</li>
 		<li><b className="iconfont icon-weibiaoti2fuzhi06 red"></b>待评论</li>
-		<li><b className="iconfont icon-dizhi"></b>地址管理</li>
+		<li><b className="iconfont icon-dizhi blue"></b>地址管理</li>
 		<li><b className="iconfont icon-xiaoxi origin"></b>联系客服</li>
-		<li><b className="iconfont icon-zuji"></b>浏览足迹</li>
+		<li><b className="iconfont icon-zuji zise"></b>浏览足迹</li>
 		<li><b className="iconfont icon-gerenxinxi green"></b>个人信息</li>
 		<li><b className="iconfont icon-jifen"></b>积分兑换</li>
 		<li><b className="iconfont icon-choujiang"></b>积分抽奖</li>
