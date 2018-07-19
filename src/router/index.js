@@ -9,6 +9,9 @@ import Search from "../component/search"
 import Classify from "../component/classify"
 import Area from "../component/area"
 import Search_detail from "../component/search_detail"
+import Login from "../component/login"
+import Register from "../component/register"
+
 import App from "../App";
 
 const router = 	(
@@ -16,6 +19,9 @@ const router = 	(
 		<App>
 		  <Switch> 
 			<Route path="/home" component={Home}/>
+			<Route path="/login" component={Login}/>
+			<Route path="/register" component={Register}/>
+
 			<Route path="/area" component={Area}/>
 			<Route path="/classify" component={Classify}/>
 			<Route path="/my" component={My}/>

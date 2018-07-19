@@ -4,7 +4,8 @@
   color: #fff; }
   #my .top .shezhi {
     overflow: hidden;
-    color: #fff; }
+    color: #fff;
+    line-height: 20px; }
     #my .top .shezhi span {
       float: right; }
       #my .top .shezhi span .icon-xiaoxi {
@@ -20,7 +21,15 @@
       display: inline-block; }
     #my .top div.bm b.small {
       font-size: 16px;
-      color: #fff; }
+      color: #fff;
+      line-height: 16px;
+      margin-left: 10px;
+      position: relative;
+      top: -10px; }
+    #my .top div.bm .icon-denglu {
+      color: #fff;
+      font-size: 60px;
+      margin-left: 15px; }
 
 #my p {
   height: 40px;

@@ -1,0 +1,48 @@
+#register {
+  background: #ccc;
+  padding: 0px;
+  height: 100%;
+  position: relative;
+  padding-bottom: 210px;
+  padding-top: 80px; }
+  #register ul {
+    background: #fff;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: 0 30px; }
+    #register ul li {
+      list-style: none;
+      text-align: center;
+      margin: 15px 0px;
+      position: relative; }
+      #register ul li input {
+        width: 160px;
+        height: 30px;
+        border-radius: 4px;
+        padding-left: 40px;
+        border: 1px solid #ccc; }
+      #register ul li span {
+        position: absolute;
+        top: 10px;
+        right: 185px;
+        font-size: 14px; }
+      #register ul li button {
+        background: #fff;
+        border: 1px solid #ccc;
+        width: 100px;
+        height: 30px;
+        border-radius: 4px;
+        background: #aaa;
+        color: #fff; }
+  #register .tu {
+    position: absolute;
+    top: 34px;
+    left: 140px; }
+    #register .tu img {
+      width: 75px; }
+  #register p {
+    font-size: 12px;
+    color: #bbb; }
+  #register .red {
+    color: red; }
