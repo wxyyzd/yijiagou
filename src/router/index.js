@@ -8,14 +8,13 @@ import My from "../component/my";
 import Search from "../component/search"
 import Classify from "../component/classify"
 import Area from "../component/area"
+import Search_detail from "../component/search_detail"
 import App from "../App";
 
 const router = 	(
 	<Router>
 		<App>
-
 		  <Switch> 
-		 
 			<Route path="/home" component={Home}/>
 			<Route path="/area" component={Area}/>
 			<Route path="/classify" component={Classify}/>
@@ -24,7 +23,7 @@ const router = 	(
 			<Route path="/shoppingCar" render={()=>
 				<ShoppingCar/>
 			}/>
-		
+		<Route path="/Search_detail/:id" component={Search_detail}/>
 			<Redirect from="*" to="/home"/>
 			</Switch>
 		</App>

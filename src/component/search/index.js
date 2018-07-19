@@ -37,7 +37,7 @@ constructor(props){
      <ul className="u1">
          {
                  this.state.list.map((item)=>
-                  <li key={item.id} >{item.linkinfo}</li>
+                  <li key={item.id} onClick={this.detailClick.bind(this,item.linkinfo)}>{item.linkinfo}</li>
                     )
                    }
       </ul>
@@ -45,13 +45,16 @@ constructor(props){
       <ul className="u2">
          {
                  this.state.listHistory.map((item)=>
-                  <li key={item.id} >{item.val}</li>
+                  <li key={item.id} onClick={this.detailClick.bind(this,item.val)}>{item.val}</li>
                     )
                    }
       </ul>
       <div className="but"><button onClick={this.buttonclick.bind(this)}>清除历史记录</button></div>
 
     </div>);
+  }
+  detailClick(item){
+    this.props.history.push(`/search_detail/${item}`)
   }
   hangleClick(){
     let comment = {val: this.refs.searchVal.state.value,id:Date.now()}
@@ -98,3 +101,4 @@ console.log(val)
 
 
 export default Search
+

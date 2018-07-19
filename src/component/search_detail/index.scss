@@ -1,0 +1,38 @@
+#search_detail{
+	ul{
+		margin: 0px;padding:0px;
+	}
+li{display:block;overflow:hidden;
+	list-style:none;display:flex;position:relative;
+	.left{;width:100px;box-sizing:border-box;padding:10px;
+		img{width:100%}
+	}
+	.right{flex:1;border-bottom:1px solid #ddd;
+		.shop{margin:0px;padding:0px;
+			span{display:inline-block;border:1px solid #95359f;font-size:11px;margin:0 9px;border-radius:2px;color:#95359f}
+		}
+		.l{margin:0px;padding:0px;margin-top:9px;
+					span{display:inline-block;border:1px solid red;font-size:14px;
+					margin:0 9px;border-radius:2px;color:red}
+					b{font-size:12px;font-weight:100;border-radius:2px;color:#f60;border:1px solid #f60;margin-right:9px}
+					i{font-size:12px;border-radius:2px;color:blue;border:1px solid blue;font-style:italic;}
+	
+		}
+
+	}
+	.mkt_price{margin:0px;font-size:12px;color:#ccc;
+		span{text-decoration: line-through;}
+	}
+	.price{overflow:hidden;margin:0px;font-size:14px;
+		span{float:left;font-size:15px;color:red}
+		i{font-style:none;float:right;margin-right:60px;font-size:11px}
+
+	}
+	.icon-gouwuche1{
+		position: absolute;right:10px;bottom:10px;
+		 font-size: 26px;
+    color:red;
+    border-left:1px soild #ccc;
+	}
+}
+}
