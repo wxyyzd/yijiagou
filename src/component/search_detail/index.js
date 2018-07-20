@@ -28,7 +28,9 @@ componentDidMount(){
      
   })
 }
-
+detailClick(item){
+ this.props.history.push(`/detail_s/${item}`)
+}
      render() {
     return (<div id="search_detail">
         <Button
@@ -62,10 +64,10 @@ componentDidMount(){
            
         }}
       >
-        <ul>
+        <ul >
 				{
 					 this.state.list.map((item)=>
-                  <li key={item.gid} >
+                  <li key={item.gid} onClick={this.detailClick.bind(this,item.gid)} >
                   <div className="left">
                   	<img src={item.image_default_id} alt=""/>
                   </div>

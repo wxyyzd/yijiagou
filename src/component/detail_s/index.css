@@ -1,0 +1,101 @@
+#detail_s {
+  margin-bottom: 40px; }
+  #detail_s .tt {
+    background: #fff;
+    padding: 20px 0px;
+    margin-top: 5px; }
+    #detail_s .tt p {
+      line-height: 20px;
+      padding-left: 15px; }
+      #detail_s .tt p span {
+        display: inline-block;
+        border: 1px solid #95359f;
+        font-size: 10px;
+        height: 14px;
+        line-height: 14px;
+        margin-right: 20px; }
+    #detail_s .tt .pp {
+      color: #f60;
+      font-size: 12px; }
+    #detail_s .tt .p_bm {
+      overflow: hidden; }
+      #detail_s .tt .p_bm span {
+        border: none;
+        color: red;
+        font-size: 16px;
+        float: left; }
+      #detail_s .tt .p_bm i {
+        font-size: 12px;
+        color: #999;
+        float: left; }
+      #detail_s .tt .p_bm b {
+        font-weight: 100;
+        float: right;
+        margin-right: 8px;
+        color: #999; }
+        #detail_s .tt .p_bm b i {
+          font-size: 12px;
+          color: red;
+          margin: 0px;
+          padding: 0px; }
+        #detail_s .tt .p_bm b span {
+          border: none;
+          color: #999;
+          margin: 0px;
+          padding: 0px;
+          font-size: 12px;
+          line-height: 20px; }
+      #detail_s .tt .p_bm .first {
+        border: 1px solid #ff9224; }
+      #detail_s .tt .p_bm .middle {
+        border: 1px solid #2b6dbf; }
+  #detail_s .p_xq {
+    height: 44px;
+    line-height: 44px;
+    background: #fff;
+    margin-bottom: 0px; }
+  #detail_s .footer {
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+    overflow: hidden;
+    width: 100%; }
+    #detail_s .footer footer {
+      text-align: center;
+      display: flex;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      padding-top: 5px; }
+      #detail_s .footer footer div:nth-of-type(1) {
+        width: 35%;
+        line-height: 22px;
+        margin-top: 5px; }
+        #detail_s .footer footer div:nth-of-type(1) input {
+          width: 36px;
+          height: 26px;
+          outline: none;
+          border: 1px solid #ccc;
+          padding: 0px;
+          text-align: center;
+          border-left: none;
+          border-right: none; }
+        #detail_s .footer footer div:nth-of-type(1) span {
+          width: 31px;
+          height: 26px;
+          display: inline-block;
+          border: 1px solid #ccc;
+          font-size: 20px; }
+      #detail_s .footer footer div:nth-of-type(2) {
+        width: 25%;
+        line-height: 40px;
+        background: #999; }
+        #detail_s .footer footer div:nth-of-type(2) b {
+          font-size: 30px;
+          margin-top: 5px;
+          color: #fff; }
+      #detail_s .footer footer div:nth-of-type(3) {
+        width: 40%;
+        line-height: 30px;
+        background: red;
+        height: 100%; }

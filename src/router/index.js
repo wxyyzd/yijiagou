@@ -11,6 +11,7 @@ import Area from "../component/area"
 import Search_detail from "../component/search_detail"
 import Login from "../component/login"
 import Register from "../component/register"
+import Detail_s from "../component/detail_s"
 
 import App from "../App";
 
@@ -18,7 +19,9 @@ const router = 	(
 	<Router>
 		<App>
 		  <Switch> 
+
 			<Route path="/home" component={Home}/>
+		
 			<Route path="/login" component={Login}/>
 			<Route path="/register" component={Register}/>
 
@@ -29,6 +32,7 @@ const router = 	(
 			<Route path="/shoppingCar" render={()=>
 				<ShoppingCar/>
 			}/>
+		<Route path="/detail_s/:id" component={Detail_s}/>
 		<Route path="/Search_detail/:id" component={Search_detail}/>
 			<Redirect from="*" to="/home"/>
 			</Switch>
