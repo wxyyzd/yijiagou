@@ -1,11 +1,15 @@
 import React,{Component} from "react";
 import "./index.css";
 import {NavLink} from 'react-router-dom'
-class ShoppingCar extends Component{
+import {connect} from "react-redux";
+class Footer extends Component{
 
 	render(){
 		return (
 			<div id="footer">
+			{
+				this.props.myfooter?
+			
 				<aside>
 
 					<ul>
@@ -15,11 +19,15 @@ class ShoppingCar extends Component{
 					 <li><NavLink to="/my" activeClassName="active"><b className="iconfont icon-wode"></b>我的易家</NavLink></li>
 					
 					</ul>
-				</aside>
+				</aside>:null}
 			</div>
 		)
 	}
 }
 
 
-export default ShoppingCar
+export default connect(
+
+	(state)=>{return {
+
+			myfooter:state.footerreducer }  },null)(Footer)

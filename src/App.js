@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Footer from "./component/footer"
-import Navbar from "./component/navbar"
+import Footer from "./component/footer";
+import Navbar from "./component/navbar";
+
 import './App.css';
 
 class App extends Component {
@@ -8,7 +9,9 @@ class App extends Component {
     return (
       <div className="App">
     
-       <section id="footer"> <Footer/></section>
+    	<section id="footer"> <Footer/></section>
+    
+      
        {this.props.children}
       </div>
     );

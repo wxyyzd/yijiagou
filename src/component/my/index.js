@@ -1,6 +1,7 @@
 import React,{Component} from "react";
 import "./index.css";
-import {NavLink} from "react-router-dom"
+import {NavLink} from "react-router-dom";
+import {connect} from "react-redux";
 class My extends Component{
 
 	render(){
@@ -48,7 +49,19 @@ class My extends Component{
 		</ul>
 		</div>
 	}
+	componentDidMount(){
+		 this.props.isshow(true)
+	}
 }
 
 
-export default My
+export default connect(
+  null,{
+    isshow(data){
+      return {
+        type:"ishow",
+        payload:data
+      }
+    },
+
+  })(My)

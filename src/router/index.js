@@ -1,6 +1,8 @@
 
 import React from "react" //解析jsx语法
 import { HashRouter as Router, Route, Redirect,Switch } from "react-router-dom";
+import {Provider} from "react-redux";
+import Store  from "../redux";
 
 import Home from "../component/home";
 import ShoppingCar from "../component/shoppingCar";
@@ -16,6 +18,7 @@ import Detail_s from "../component/detail_s"
 import App from "../App";
 
 const router = 	(
+	<Provider store={Store}>
 	<Router>
 		<App>
 		  <Switch> 
@@ -38,5 +41,6 @@ const router = 	(
 			</Switch>
 		</App>
 	</Router>
+	</Provider>
 )
 export default router;

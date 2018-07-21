@@ -2,6 +2,7 @@ import React,{Component} from "react";
 import "./index.css";
 import axios from "axios";
 import { Carousel, WingBlank } from 'antd-mobile';
+import {connect} from "react-redux";
 class Detail_s extends Component{
 	constructor(props){
 		super(props);
@@ -88,10 +89,20 @@ class Detail_s extends Component{
       })
     console.log(this.state.data)
     console.log(this.state.data.title)
+    this.props.isshows(false)
      
   })
 	}
 }
 
 
-export default Detail_s
+export default connect(
+  null,{
+    isshows(data){
+      return {
+        type:"isshow",
+        payload:data
+      }
+    },
+
+  })(Detail_s)
