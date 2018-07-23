@@ -1,0 +1,36 @@
+#my{.top{background:#f00;color:#fff;
+	.shezhi{overflow:hidden;color:#fff;line-height:20px;
+		span{float:right;
+			.icon-xiaoxi{font-size:16px;display:inline-block;color:#fff;}
+		}
+	}
+	div.bm{
+		height:100px;font-size:18px;color:#fff;
+		b{font-size:50px;display:inline-block}
+		b.small{font-size:16px;color:#fff;line-height:16px;margin-left:10px;position: relative;top:-10px}
+		.icon-denglu{color:#fff;font-size:60px;margin-left:15px}
+	}
+}
+	p{height:40px;border-bottom:1px solid #ccc; margin:0px; padding:0px;line-height:40px;text-indent:2em;
+		span{float:right;margin-right:20px}
+	}
+	li{list-style:none;text-align:center;height:100px;}
+	ul{margin:0px;padding:0px}
+	.u1,.u2{display:flex;margin: 0 ;padding:0;justify-content: space-between; border-bottom:6px solid #ddd;
+		li{
+			flew:1;list-style:none;text-align:center;margin:0 5px；
+
+		}
+	}
+	.u3{display:flex;flex-wrap: wrap;
+		li{width:25%;border:1px solid #ddd;box-sizing:border-box;border-right:0px}
+		.red{color:red}
+	.green{color:green}
+	.origin{color:#f60}
+	.zise{color:#f0f}
+	.blue{color:#0f0}
+	}
+	b.iconfont{display:block;font-size:30px;margin:10px 0px;color:#666}
+	i{font-size:18px}
+	
+}

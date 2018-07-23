@@ -1,0 +1,92 @@
+@charset "UTF-8";
+#my .top {
+  background: #f00;
+  color: #fff; }
+  #my .top .shezhi {
+    overflow: hidden;
+    color: #fff;
+    line-height: 20px; }
+    #my .top .shezhi span {
+      float: right; }
+      #my .top .shezhi span .icon-xiaoxi {
+        font-size: 16px;
+        display: inline-block;
+        color: #fff; }
+  #my .top div.bm {
+    height: 100px;
+    font-size: 18px;
+    color: #fff; }
+    #my .top div.bm b {
+      font-size: 50px;
+      display: inline-block; }
+    #my .top div.bm b.small {
+      font-size: 16px;
+      color: #fff;
+      line-height: 16px;
+      margin-left: 10px;
+      position: relative;
+      top: -10px; }
+    #my .top div.bm .icon-denglu {
+      color: #fff;
+      font-size: 60px;
+      margin-left: 15px; }
+
+#my p {
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  margin: 0px;
+  padding: 0px;
+  line-height: 40px;
+  text-indent: 2em; }
+  #my p span {
+    float: right;
+    margin-right: 20px; }
+
+#my li {
+  list-style: none;
+  text-align: center;
+  height: 100px; }
+
+#my ul {
+  margin: 0px;
+  padding: 0px; }
+
+#my .u1, #my .u2 {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  border-bottom: 6px solid #ddd; }
+  #my .u1 li, #my .u2 li {
+    flew: 1;
+    list-style: none;
+    text-align: center;
+    margin: 0 5px；; }
+
+#my .u3 {
+  display: flex;
+  flex-wrap: wrap; }
+  #my .u3 li {
+    width: 25%;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-right: 0px; }
+  #my .u3 .red {
+    color: red; }
+  #my .u3 .green {
+    color: green; }
+  #my .u3 .origin {
+    color: #f60; }
+  #my .u3 .zise {
+    color: #f0f; }
+  #my .u3 .blue {
+    color: #0f0; }
+
+#my b.iconfont {
+  display: block;
+  font-size: 30px;
+  margin: 10px 0px;
+  color: #666; }
+
+#my i {
+  font-size: 18px; }

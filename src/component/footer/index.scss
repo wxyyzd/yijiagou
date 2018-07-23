@@ -1,7 +1,11 @@
 #footer{
 	ul{display:flex;margin:0px; padding:0px;width:100%;
 		li{
-			list-style:none;width:25%;text-align:center;
+			list-style:none;width:25%;text-align:center;font-size:10px;
+			a{font-size:10px;}
+			b{display:block;font-size:24px;color:#666}
+			.active{color:red}
 		}
 	}
+
 }

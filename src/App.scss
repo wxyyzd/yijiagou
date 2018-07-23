@@ -1,7 +1,9 @@
 
   #footer{
-    position:fixed;bottom:0px;width:100%;font-size:14px;text-align:center;
+    position:fixed;bottom:0px;width:100%;font-size:14px;text-align:center;z-index:10;background:#fff
+
   }
+
 
 body,h1,h2,h3,h4,h5,h6,p,a,img,input,ul,li,ol,dl,dt,dd,figure,figcaption{
 	padding:0;
@@ -25,3 +27,8 @@ header,nav,section,footer,aside,article,main,figure,figcaption{
 	display:block;}
 *{
 	box-sizing:border-box;}
+
+#nav{
+	position:fixed;top:0px
+}
+

@@ -4,6 +4,7 @@
   bottom: 0px;
   width: 100%;
   font-size: 14px;
+
   text-align: center; }
 
 body, h1, h2, h3, h4, h5, h6, p, a, img, input, ul, li, ol, dl, dt, dd, figure, figcaption {
@@ -35,3 +36,10 @@ header, nav, section, footer, aside, article, main, figure, figcaption {
 
 * {
   box-sizing: border-box; }
+  text-align: center;
+  z-index: 10;
+  background: #fff; }
+
+#nav {
+  position: fixed;
+  top: 0px; }

@@ -1,0 +1,38 @@
+#search p {
+  text-indent: 1.2em; }
+  #search p b {
+    font-size: 16px; }
+
+#search .u1 {
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+  height: 30px;
+  line-height: 30px; }
+  #search .u1 li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 6px;
+    background: #ddd;
+    padding: 0 10px; }
+
+#search .u2 {
+  margin: 0px;
+  padding: 0px;
+  height: 300px;
+  border-bottom: 1px solid #ddd; }
+  #search .u2 li {
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ddd;
+    margin-left: 10px; }
+
+#search button {
+  width: 140px;
+  height: 30px;
+  text-align: center;
+  margin-top: 20px; }
+
+#search .but {
+  text-align: center; }
