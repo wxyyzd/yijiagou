@@ -4,9 +4,10 @@ import "./index.css";
 class My extends Component{
 
 	render(){
-		return <div>
-			my
-		</div>
+		
+		return (<div>
+			
+		</div>);
 	}
 }
 

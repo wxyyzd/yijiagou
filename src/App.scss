@@ -2,3 +2,26 @@
   #footer{
     position:fixed;bottom:0px;width:100%;font-size:14px;text-align:center;
   }
+
+body,h1,h2,h3,h4,h5,h6,p,a,img,input,ul,li,ol,dl,dt,dd,figure,figcaption{
+	padding:0;
+	margin:0;}
+ul,ol{
+	list-style:none;}
+img{
+	display:block;
+	border:0;}
+input{
+	outline:none;}
+body{
+	font-size:12px;
+	font-family:"微软雅黑";
+	color:#3e3e3e;
+	background:#f2f2f2;}
+a{
+	text-decoration:none;
+	color:#909090;}
+header,nav,section,footer,aside,article,main,figure,figcaption{
+	display:block;}
+*{
+	box-sizing:border-box;}

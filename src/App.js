@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Search/>
+        {this.props.children}
 
        <section id="footer"> <Footer/></section>
       </div>

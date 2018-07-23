@@ -1,0 +1,33 @@
+#film ul li {
+  background: #fff;
+  float: left; }
+  #film ul li img {
+    width: 25%;
+    float: left; }
+  #film ul li h3 {
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 5px; }
+  #film ul li .temp {
+    width: 75%;
+    height: 31px;
+    float: right;
+    margin-top: 13%; }
+  #film ul li p {
+    font-size: 12px;
+    width: 20%;
+    color: #afafaf;
+    text-decoration: line-through; }
+  #film ul li h4 {
+    display: inline-block;
+    font-size: 16px;
+    width: 20%;
+    float: left;
+    color: red;
+    font-weight: 100; }
+  #film ul li h5 {
+    font-size: 12px;
+    font-weight: 100;
+    color: #999;
+    float: right;
+    margin-right: 10px; }
